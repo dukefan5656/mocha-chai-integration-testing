@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: whSiqpu+Si4fqK6hXFWW52CLstUfj0+nPjCqmwEmMYkKrA5gRLqEy8HBKyDfriIWLF0oCO2GkfuyPXpBc0BfdCj74J+QNRTBZF1UdTxJCyt9Gv/0u//i09FZnrJObn6vDMzGrYWysjfwwxEvsxQZTGI5NsiRJfVB2nH44TE4eFrz4rme/a8h7k3se3tTPHuU4XOfvG3LykCPiQo9IpICaPVUmOSY1oCBiQPnKMjsvu2FQuEqjh2IBTNG18EtxSHV1z/jFpDj3S+9xmigjWizx9JYFneD2PmqLL7TVbOPewjsfoLd77JBcJ+JwaKJSA9URa42ZgnPPcw1uGVSINkwAW/Od1QA2d+VotUyRkI98px2xLo0pXTSBc6pFBXhAsVUhRXzalG6lBk0/jmt4pN55M0yErsao48SRPqtLe/B7mFl5FeckMC8PMowFI5lacfujjxK01BOFEYmDV+9paGSU7SfDcGtr/nvZs2ATKnPCNPZ0YqBkB1BtC11HJGYwEeAS+PIfqUjcLsplbWHc3JRmSc69f0lZetMcQTlw1rDqvwIMO3lBV1SNNoiaoIi/r62/4ajeR1ltYzOt13wBMvDwWduuXL2gEEh4mmTsvmOLIcgBsLAL7Ur4Sbm6ct2JwlWt3gW+UG28yZKRsP++wPKSz3onNKvLDLv6770juz4YDg=
+  app: radiant-escarpment-48887
+  on:
+    repo: dukefan5656/mocha-chai-integration-testing
